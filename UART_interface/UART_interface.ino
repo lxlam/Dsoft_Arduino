@@ -64,12 +64,8 @@ void loop()
 
     if (datacommand == "ON"){
         Turn_on_led();
-        //while(Serial.available()) Serial.read(); // Clear serial buffer
-        //datacommand = ""; 
     }else if(datacommand == "OFF"){
         Turn_off_led();
-        //while(Serial.available()) Serial.read(); // Clear serial buffer
-        //datacommand = "";
     }else if(datacommand == "Blink"){
         Blink_led();
     }
